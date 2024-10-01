@@ -89,7 +89,7 @@ const AuthProvider = ({ children }) => {
 
       if(currentUser){
         // User is signed in.
-        console.log("User signed in", currentUser);
+        // console.log("User signed in", currentUser);
         setUser(currentUser);
 
       } else {
